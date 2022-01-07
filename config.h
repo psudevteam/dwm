@@ -10,11 +10,11 @@ static const char *fonts[]          = { "FiraCode Nerd Font:size=12", "icomoon:s
 static const char dmenufont[]       = "FiraCode Nerd Font:size=12";
 
 static const unsigned int gappx     = 10;        /* gap pixel between windows */
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#F8C8DC";
-static const char col_gray3[]       = "#F8C8DC";
-static const char col_gray4[]       = "#222222";
-static const char col_cyan[]        = "#F8C8DC";
+static const char col_gray1[]       = "#2E3440";
+static const char col_gray2[]       = "#4C566A";
+static const char col_gray3[]       = "#D8DEE9";
+static const char col_gray4[]       = "#2E3440";
+static const char col_cyan[]        = "#D8DEE9";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -22,7 +22,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
