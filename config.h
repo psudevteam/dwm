@@ -2,14 +2,14 @@
 #include <X11/XF86keysym.h>
 
 /* appearance */
-static const unsigned int borderpx  = 3;        /* border pixel of windows */
-static const unsigned int snap      = 6;       /* snap pixel */
+static const unsigned int borderpx  = 0;        /* border pixel of windows */
+static const unsigned int snap      = 8;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
-static const int topbar             = 1;        /* 0 means bottom bar */
+static const int topbar             = 0;        /* 0 means bottom bar */
 static const char *fonts[]          = { "FiraCode Nerd Font:size=12", "icomoon:size=14", "FontAwesome:size=14" };
 static const char dmenufont[]       = "FiraCode Nerd Font:size=12";
 
-static const unsigned int gappx     = 10;        /* gap pixel between windows */
+static const unsigned int gappx     = 12;        /* gap pixel between windows */
 static const char col_gray1[]       = "#2E3440";
 static const char col_gray2[]       = "#4C566A";
 static const char col_gray3[]       = "#D8DEE9";
@@ -22,7 +22,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "" };
+static const char *tags[] = { "1 ", "2 ", "3 ", "4 " };
 
 static const Rule rules[] = {
 	/* xprop(1):
